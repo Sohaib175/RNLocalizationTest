@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, Pressable, I18nManager} from 'react-native';
-import Ionicons from 'react-native-vector-icons/dist/Ionicons';
 import {useTranslation} from 'react-i18next';
-// import RNRestart from 'react-native-restart';
+import RNRestart from 'react-native-restart';
 
 const LANGUAGES = [
   {code: 'en', label: 'English'},
@@ -36,8 +35,10 @@ const Selector = () => {
               setLanguage(language.code);
               if (language.code === 'ar') {
                 I18nManager.forceRTL(true);
+                RNRestart.restart();
               } else {
                 I18nManager.forceRTL(false);
+                RNRestart.restart();
               }
             }}>
             <Text

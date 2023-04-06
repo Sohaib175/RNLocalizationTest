@@ -41,7 +41,8 @@ target 'LocalizeTest' do
     :flipper_configuration => flipper_config,
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
-  )
+    )
+    pod 'react-native-restart', :path => '../node_modules/react-native-restart'
 
   target 'LocalizeTestTests' do
     inherit! :complete

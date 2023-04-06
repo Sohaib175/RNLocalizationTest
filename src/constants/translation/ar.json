@@ -1,0 +1,17 @@
+{
+  "common": {
+    "hello": "مرحبًا",
+    "languageSelector": "اختر لغتك",
+    "email": "بريد إلكتروني",
+    "password": "كلمة المرور",
+    "splascScreen": " شاشة البداية",
+    "login": "تسجيل الدخول",
+    "noAccount": " ليس لديك حساب؟",
+    "signUp": "اشتراك",
+    "alreadyHaveAccount": " هل لديك حساب؟"
+  },
+  "navigation": {
+    "home": "مسكن",
+    "settings": "إعدادات"
+  }
+}

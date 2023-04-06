@@ -1,0 +1,17 @@
+{
+  "common": {
+    "hello": "Hello",
+    "languageSelector": "Select Your Language",
+    "email": "Email",
+    "password": "Password",
+    "splascScreen": "Splash Screen",
+    "login": "Login",
+    "noAccount": "Don't have an account? ",
+    "signUp": "Sign Up",
+    "alreadyHaveAccount": "Already have an account? "
+  },
+  "navigation": {
+    "home": "Home",
+    "settings": "Settings"
+  }
+}
